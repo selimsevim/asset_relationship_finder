@@ -12,8 +12,6 @@ SFMC Asset Relationship Finder is a powerful application designed to help Salesf
 - **API-Based Retrieval**: Uses efficient API consumption strategies to retrieve data with minimal overhead, optimizing the interaction with SFMC’s REST and SOAP APIs.
 - **Enhanced User Interaction**: Includes a “View More” feature for long lists of relationships, allowing users to expand or collapse results as needed without overwhelming the dashboard.
 
-![Screenshot](/screenshots/1.png)
-
 ![Screenshot](/screenshots/2.png)
 
 ![Screenshot](/screenshots/3.png)
