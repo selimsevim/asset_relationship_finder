@@ -32,13 +32,13 @@ This application is developed for Heroku-hosted deployments, complementing Sales
 ### Salesforce Marketing Cloud Setup
 
 1. Create a Web App package with the necessary permissions below:
-	Email: Read
-	Documents and Images: Read
-	Saved Content: Read
-	Automations: Read
-	Journeys: Read
-	Data Extensions: Read
-	File Locations: Read
+   - **Email**: Read
+   - **Documents and Images**: Read
+   - **Saved Content**: Read
+   - **Automations**: Read
+   - **Journeys**: Read
+   - **Data Extensions**: Read
+   - **File Locations**: Read
 2. Set the redirect URI to https://yourherokudomain.herokuapp.com.
 
 For SFMC UI integration:
@@ -50,13 +50,12 @@ For SFMC UI integration:
 After deploying the app via a GitHub repository:
 
 - Define the necessary configuration variables within Heroku's settings to match the SFMC package details:
-
-AUTHORIZATION_URL
-CLIENT_ID
-CLIENT_SECRET
-REDIRECT_URI
-REST_ENDPOINT
-SOAP_ENDPOINT
+  - `AUTHORIZATION_URL`
+  - `CLIENT_ID`
+  - `CLIENT_SECRET`
+  - `REDIRECT_URI`
+  - `REST_ENDPOINT`
+  - `SOAP_ENDPOINT`
 
 With these configurations, the app is ready for use.
 
