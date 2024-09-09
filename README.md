@@ -23,7 +23,7 @@ SFMC Asset Relationship Finder is a powerful application designed to help Salesf
 
 ![Screenshot](/screenshots/5.png)
 
-![Screenshot](/screenshots/6.png)
+![Screenshot](/screenshots/8.png)
 
 ## Getting Started
 
