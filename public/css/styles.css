@@ -1,0 +1,159 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+h5, h6 {
+    color: #343a40;
+}
+
+label {
+    font-weight: bold;
+    color: #495057;
+}
+
+.form-check-label {
+    color: #6c757d;
+}
+
+.fixed-width {
+    min-width: 450px !important;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 12px 25px;
+    font-size: 16px;
+    text-align: center;
+    width: 150px;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.input-group-text {
+    background-color: #f8f9fa;
+    border-radius: 12px 0 0 12px;
+}
+
+.form-control, .form-select {
+    border-radius: 0 12px 12px 0;
+}
+
+.form-check {
+    margin-bottom: 10px;
+}
+
+.key-dropdown {
+    background-color: #f8f9fa;
+    width: 150px !important;
+    flex: none !important;
+    border-radius: 12px 0 0 12px;
+}
+
+/* Flexbox for aligning form and results sections */
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.form-section {
+    flex-basis: 40%;
+    padding-right: 2rem;
+    border-right: 1px solid #e0e0e0;
+    min-width: 600px;
+}
+
+.results-section {
+    flex-basis: 55%;
+    padding-left: 2rem;
+}
+
+/* Results section styling */
+#resultsSection {
+    margin-top: 0;
+}
+
+.results-card {
+    border-radius: 16px;
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.hidden {
+    display: none;
+}
+
+#errorMessage {
+    color: #d9534f;
+    font-weight: bold;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f8d7da;
+    border: 1px solid #f5c6cb;
+    border-radius: 5px;
+}
+
+.results-list {
+    padding-left: 15px;
+    color: #6c757d;
+}
+
+.results-list li {
+    margin-bottom: 5px;
+}
+
+.toggle-btn {
+    color: #007bff;
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.toggle-btn:hover {
+    color: darkgray; /* Optional: Change color on hover to give feedback */
+}
+
+.go-top-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none; /* Initially hidden */
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 1000; /* Ensure it's above other elements */
+}
+
+.go-top-btn:hover {
+    background-color: darkgray; /* Optional: Add hover effect */
+}
+
+.text-center {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.result-container {
+    margin-bottom: 20px;
+}
+
+.hidden-item {
+    display: none !important; /* Ensure it's hidden */
+}
