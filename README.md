@@ -49,7 +49,7 @@ For SFMC UI integration:
 
 After deploying the app via a GitHub repository:
 
-- Define the necessary configuration variables within Heroku's settings to match the SFMC package details:
+Define the necessary configuration variables within Heroku's settings to match the SFMC package details:
   - `AUTHORIZATION_URL`
   - `CLIENT_ID`
   - `CLIENT_SECRET`
