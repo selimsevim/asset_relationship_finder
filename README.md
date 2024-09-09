@@ -5,12 +5,11 @@ SFMC Asset Relationship Finder is a powerful application designed to help Salesf
 ## Key Features
 
 - **Asset Relationship Discovery**: Quickly identifies the relationships between different SFMC assets, including Data Extensions, Automations, Emails, and Cloud Pages.
+- **Concurrent API Calls**: Ensures rapid, simultaneous API interactions, making the application faster and more responsive even when managing multiple asset relationships in real-time.
 - **Multi-Asset Type Support**: Supports searching and relationship mapping for multiple asset types (Data Extensions, Cloud Pages, Emails, Automations).
 - **Smart Asset Filtering**: Filter assets by name or key, and view detailed relationships to other assets within SFMC.
 - **Efficient Search & Display**: Presents asset information in a clear and concise format, including which automations use specific Data Extensions or which Emails reference Cloud Pages and etc.
 - **API-Based Retrieval**: Uses efficient API consumption strategies to retrieve data with minimal overhead, optimizing the interaction with SFMC’s REST and SOAP APIs.
-- **Concurrency Management**: Minimizes redundant API calls by caching frequently accessed token data, reducing overall API consumption.
-- **Intelligent Caching**: Utilizes a "Go Back" feature to rapidly create multiple Data Extensions without data loss.
 - **Enhanced User Interaction**: Includes a “View More” feature for long lists of relationships, allowing users to expand or collapse results as needed without overwhelming the dashboard.
 
 ![Screenshot](/screenshots/1.png)
